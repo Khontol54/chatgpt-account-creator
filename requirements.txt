@@ -1,0 +1,32 @@
+# Browser automation
+playwright>=1.40.0
+
+# Web framework (API server)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# HTTP client
+httpx>=0.25.0
+requests>=2.31.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Email handling
+secure-smtplib>=0.1.1
+
+# Data validation
+pydantic>=2.4.0
+
+# Rate limiting utilities
+ratelimit>=2.2.1
+
+# Database (SQLite is built-in, but we add an ORM-friendly helper)
+# SQLite3 is included in Python standard library
+
+# Logging
+colorlog>=6.7.0
+
+# Utilities
+faker>=20.0.0
+tenacity>=8.2.3
